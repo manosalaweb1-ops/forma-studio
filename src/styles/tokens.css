@@ -1,0 +1,68 @@
+/* ================================================
+   TOKENS — FORMA STUDIO
+   ================================================ */
+
+:root {
+  /* COLORES */
+  --color-primary:      #1400FF;
+  --color-dark:         #0B0B5A;
+  --color-bg:           #EBF2F9;
+  --color-text:         #252025;
+  --color-muted:        #6B7280;
+  --color-white:        #FFFFFF;
+  --color-light-fill:   #1400FF14;
+  --color-light-border: #1400FF14;
+
+  /* TIPOGRAFÍA */
+  --font: 'DM Sans', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+
+  --text-hero:     clamp(72px, 11vw, 160px);
+  --text-h2:       clamp(44px, 5.5vw, 76px);
+  --text-h3:       clamp(28px, 3.5vw, 56px);
+  --text-h4:       clamp(20px, 2vw, 32px);
+  --text-body-lg:  clamp(15px, 1.4vw, 19px);
+  --text-body:     16px;
+  --text-caption:  13px;
+  --text-nav:      14px;
+  --text-label:    11px;
+
+  --lh-hero:    1.0;
+  --lh-heading: 1.08;
+  --lh-body:    1.65;
+
+  --ls-hero:    -0.035em;
+  --ls-heading: -0.025em;
+  --ls-label:   0.12em;
+
+  /* ESPACIADO */
+  --space-4:   4px;
+  --space-8:   8px;
+  --space-12:  12px;
+  --space-16:  16px;
+  --space-24:  24px;
+  --space-32:  32px;
+  --space-48:  48px;
+  --space-64:  64px;
+  --space-80:  80px;
+  --space-120: 120px;
+
+  --section-padding: clamp(80px, 10vw, 140px);
+  --container-max:   1280px;
+  --container-pad:   clamp(16px, 3vw, 40px);
+  --grid-gap:        32px;
+
+  /* FORMA */
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-pill: 100px;
+
+  /* SOMBRAS */
+  --shadow-card:  0 2px 12px rgba(0,0,0,0.06);
+  --shadow-hover: 0 8px 32px rgba(0,0,0,0.12);
+
+  /* TRANSICIONES */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.25s ease;
+  --transition-slow: 0.4s ease;
+}
